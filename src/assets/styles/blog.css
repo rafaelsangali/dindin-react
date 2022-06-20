@@ -1,0 +1,120 @@
+.resumo-curso{
+    padding: 122px 0 162px 239px;
+    background: url(../images/ilustra-blog.svg) 77% 50% no-repeat;
+    background-size: 405px 405px;
+    
+}
+
+.resumo-curso h1{
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 54px;
+    color: #009688;
+    width: 512px;
+}
+
+.resumo-curso p{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    width: 461px;
+}
+
+.area-postagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: #E5E5E5;
+    padding: 110px 0 170px 0;
+    
+}
+
+.card-postagem img{
+    width: 518px;
+}
+
+.card-postagem h2{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    color: #FF4081;
+}
+
+.card-postagem p{
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+    text-align: justify;
+    width: 516px;
+}
+
+@media screen and (max-width: 1200px) {
+    .resumo-curso{
+        background: none;
+    }
+
+}
+
+@media screen and (max-width: 760px){
+    .resumo-curso{
+        padding: 122px 0 162px 100px;
+    }
+    .resumo-curso h1{
+        width: auto;
+    }
+    
+}
+
+@media screen and (max-width: 570px){
+    .resumo-curso h2{
+        width: auto;
+        padding-left: 30px;
+    }
+    .resumo-curso p{
+        width: auto;
+    }
+    
+    .card-postagem img{
+        width: 414px;
+        height: 207px;
+        margin: 30px 0 30px 40px
+    }
+    .card-postagem h2{
+        width: auto;
+        text-align: center;
+        
+    }
+    .card-postagem p{
+        width: auto;
+        margin: 17px 20px;
+        
+    }
+
+}
+
+@media screen and (max-width: 485px){
+    .resumo-curso{
+        padding-left: 5%;
+    }
+    .card-postagem{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-postagem img{
+        margin: 40px 0 0 0;
+        width: 207px ;
+        height: 104px;
+        
+        
+
+
+    }
+
+
+
+
+
+}
