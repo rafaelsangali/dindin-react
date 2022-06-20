@@ -4,7 +4,7 @@ interface CardCommentProps {
     name:string,
 }
 
-export default function CardComment(props: CardCommentProps) {
+export default function CardHomeComment(props: CardCommentProps) {
     return (
         <div className="card-depoimento">
             <img src={props.href} />

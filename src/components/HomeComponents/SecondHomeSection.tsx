@@ -1,11 +1,11 @@
 
-import CardCourse from "./CardCourse"
+import CardCourse from "./CardHomeCourse"
 import Img2 from "../../assets/images/image2.svg"
 import Img3 from "../../assets/images/image3.svg"
 import Img4 from "../../assets/images/image4.svg"
 import "../../assets/styles/index.css"
 
-export default function SecondSection(){
+export default function SecondHomeSection(){
     return (
          <section className="links-cursos-index">
             <CardCourse 

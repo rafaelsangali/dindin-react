@@ -3,7 +3,7 @@ interface CardContentProps {
     text: string,
 }
 
-export default function CardContent(props: CardContentProps){
+export default function CardHomeContent(props: CardContentProps){
     return(
         <div className="card-conteudos-index">
             <img />

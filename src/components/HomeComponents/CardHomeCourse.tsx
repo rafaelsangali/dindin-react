@@ -6,7 +6,7 @@ interface CardCourseProps {
     title: string,
     text:string
 }
-export default function CardCourse(props: CardCourseProps){
+export default function CardHomeCourse(props: CardCourseProps){
     return (
          <div className="card-curso-index">
                 <img src={props.href} alt={props.alt} />

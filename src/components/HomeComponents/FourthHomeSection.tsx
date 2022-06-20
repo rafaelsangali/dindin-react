@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import CardContent from "./CardContent";
+import CardContent from "./CardHomeContent";
 
-export default function FourthSection() {
+export default function FourthHomeSection() {
     return (
         <section className="mais-conteudo-index">
             <h2>MAIS CONTEÚDO PARA VOCÊ</h2>

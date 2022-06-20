@@ -1,4 +1,4 @@
-export default function FirstSection(){
+export default function FirstBlogSection(){
 return (
     <section className="resumo-curso">
         <h1>MAIS CONTEÚDO PARA VOCÊ</h1>
