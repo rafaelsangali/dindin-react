@@ -1,0 +1,103 @@
+.conteudo-curso{
+    margin: 210px 0 115px 200px;
+    background: url(../images/image3.svg) 70% 50% no-repeat;
+    background-size: 380px 380px;
+}
+.conteudo-curso h1{
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 63px;
+    color: #FF4081;
+    width: 512px;
+
+}
+.conteudo-curso p{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    width: 461px;
+
+}
+
+.conteudo-aulas{
+    background: #F7F7F7;
+    padding-top: 75px;
+
+}
+
+.aula{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 75px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;   
+}
+
+.aula video{
+    width: 462px;
+    height: 261px;
+    border: solid;
+}
+
+section h2{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+
+section p{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    width: 500px;
+    color: #000000;
+    margin-bottom: 73px;
+}
+
+@media screen and (max-width: 1250px){
+    .conteudo-curso{
+        background: none;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .aula{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    section p{
+        text-align: justify;
+    }
+    .conteudo-aulas{
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 769px){
+    .conteudo-curso{
+    margin: 200px auto 115px 50px;
+    }
+
+}
+
+@media screen and (max-width: 560px){
+    .conteudo-curso h1 {
+        width: auto;
+    }
+    .conteudo-curso p{
+        width: auto;
+        margin: 20px 40px 20px 0;
+    }
+    section video{
+        display: none;
+    }
+    section p{
+        width: auto;
+        margin: 20px 40px 73px 40px;
+
+    }
+}
