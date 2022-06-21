@@ -1,6 +1,3 @@
-// import ""
-// rectangle21.svg
-
 import CardBlogContent from "./CardBlogContent";
 
 export default function SecondBlogSection(){

@@ -10,7 +10,7 @@ export default function Footer(){
             </h2>
             <nav>
                 <ul>
-                    <li><Link to={"#"}>Cursos</Link></li>
+                    <li><Link to={"/cursos"}>Cursos</Link></li>
                     <li><Link to={"/blog"}>Blog</Link></li>
                     <li><Link to={"#"}>Contato</Link></li>
                 </ul>

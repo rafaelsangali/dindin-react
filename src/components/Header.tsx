@@ -11,7 +11,7 @@ export default function Header(){
             
             <nav>
                 <ul>
-                    <li><Link to={""}>Cursos</Link></li>
+                    <li><Link to={"/cursos"}>Cursos</Link></li>
                     <li><Link to={"/blog"}>Blog</Link></li>
                     <li><Link to={""}>Contato</Link></li>
                 </ul>
