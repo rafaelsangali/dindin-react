@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../../assets/styles/index.css"
+import "../../assets/styles/index.css";
 
 export default function FirstHomeSection(){
     return (

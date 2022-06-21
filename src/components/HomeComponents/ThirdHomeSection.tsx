@@ -1,10 +1,10 @@
 
-import CardComment from "./CardHomeComment"
-import img1 from "../../assets/images/Group22.svg"
-import img2 from "../../assets/images/Group21.svg"
-import img3 from "../../assets/images/whoopi.svg"
-import img4 from "../../assets/images/jane.svg"
-import "../../assets/styles/index.css"
+import CardComment from "./CardHomeComment";
+import img1 from "../../assets/images/Group22.svg";
+import img2 from "../../assets/images/Group21.svg";
+import img3 from "../../assets/images/whoopi.svg";
+import img4 from "../../assets/images/jane.svg";
+import "../../assets/styles/index.css";
 
 export default function ThirdtHomeSection(){
     return (

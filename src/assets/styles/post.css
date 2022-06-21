@@ -8,7 +8,7 @@
     
 }
 
-section h1{
+.post h1{
     font-weight: 500;
     font-size: 50px;
     line-height: 57px;
@@ -16,21 +16,23 @@ section h1{
     margin: 0;
 }
 
-.data{
+#data{
     font-weight: 300;
     font-size: 18px;
     line-height: 21px;
     color: #9D9D9D;
-    margin: 12px 0 74px 0;
+    margin: auto;
+    margin-top: 30px;
     text-align: center;
 }
 
-section img{
+.post img{
+    
     width: 1232px;
-    margin-bottom: 64px;
+    margin: 70px 0;
 }
 
-section h2{
+.post h2{
     font-weight: 600;
     font-size: 30px;
     line-height: 50px;
@@ -39,12 +41,14 @@ section h2{
     text-align: start;
 
 }
-section p{
+.post p{
     font-weight: 300;
     font-size: 18px;
     line-height: 21px;
     color: #000000;
     text-align: justify;
+    margin: auto;
+    width: auto;
 }
 
 article{
@@ -70,20 +74,20 @@ article h3{
     .area-postagem{
         width: auto;
     }
-    section img{
+    .post img{
         width: auto;
     }
-    section h2{
+    .post h2{
         margin: 80px 20px 25px 20px;
     }
-    section p{
+    .post p{
         margin: 18px 20px;
     }
 }
 
 @media screen and (max-width: 540px){
 
-    section img{
+    .post img{
         width: 259px;
         height: 130px;
     }

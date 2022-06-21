@@ -1,7 +1,7 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import ClassContent from "../components/ContentComponents/ClassContent";
-import "../assets/styles/content.css"
+import "../assets/styles/content.css";
 
 export default function Content(){
 return (

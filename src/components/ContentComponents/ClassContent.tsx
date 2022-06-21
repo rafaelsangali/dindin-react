@@ -1,3 +1,5 @@
+import "../../assets/styles/content.css";
+
 interface ClassContentProps{
     src?:string,
     title:string,

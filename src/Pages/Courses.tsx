@@ -1,10 +1,10 @@
 import CourseContent from "../components/CoursesComponents/CourseContent";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import img1 from "../assets/images/image3.svg"
-import img2 from "../assets/images/image2.svg"
-import img3 from "../assets/images/image4.svg"
-import "../assets/styles/courses.css"
+import img1 from "../assets/images/image3.svg";
+import img2 from "../assets/images/image2.svg";
+import img3 from "../assets/images/image4.svg";
+import "../assets/styles/courses.css";
 
 export default function Courses(){
 return (

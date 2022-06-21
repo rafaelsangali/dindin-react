@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../assets/styles/global.css"
+import "../assets/styles/global.css";
 
 export default function Header(){
     return (
@@ -13,7 +13,7 @@ export default function Header(){
                 <ul>
                     <li><Link to={"/cursos"}>Cursos</Link></li>
                     <li><Link to={"/blog"}>Blog</Link></li>
-                    <li><Link to={""}>Contato</Link></li>
+                    <li><Link to={"/contato"}>Contato</Link></li>
                 </ul>
             </nav>
 

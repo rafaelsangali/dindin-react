@@ -1,4 +1,4 @@
-import img from "../../assets/images/rectangle21.svg"
+import img from "../../assets/images/rectangle21.svg";
 
 interface CardBlogProps {
     title: string,

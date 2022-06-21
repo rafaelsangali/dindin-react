@@ -1,0 +1,75 @@
+.form-background{
+    background: url('../images/ilustra-contato.svg') 80% 50% no-repeat;
+}
+ 
+ form {
+     display: block;
+     box-sizing: border-box;
+     margin: 222px 0 100px 136px;
+     width: 500px;
+ }
+ 
+ fieldset {
+     border: none;
+ }
+ 
+ legend {
+     color: #FF4081;
+     font-size: 40px;
+     font-weight: 700;
+     float: left;
+     margin: 0 0 44px;
+ }
+ 
+ form div {
+     clear: both;
+     box-sizing: border-box;
+     width: 500px;
+     margin: 0 0 15px;
+ }
+ 
+ form input[type=text], form input[type=email], form textarea {
+     width: 100%;
+     border: 1px solid #686868;
+     outline: 0;
+     border-radius: 7px;
+     padding: 10px 21px;
+     box-sizing: border-box;
+     resize: none;
+ }
+ 
+ form input[type=submit] {
+     background: #FF4081;
+     color: white;
+     padding: 10px 41px;
+     border: none;
+     border-radius: 50px;
+     font-size: 16px;
+     font-weight: 800;
+     cursor: pointer;
+ }
+ 
+ @media only screen and (max-width: 1250px) {
+ 
+    .form-background{  
+         background-image: none;
+     }
+ 
+ }
+
+ @media only screen and (max-width: 780px){
+     form{
+        margin: 222px auto 100px auto;
+     }
+
+ }
+ 
+ @media only screen and (max-width: 582px) {
+    form{
+        width:auto;
+    }
+     form div{
+         width: auto;
+     }
+ 
+ }
