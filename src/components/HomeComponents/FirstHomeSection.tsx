@@ -8,7 +8,7 @@ export default function FirstHomeSection(){
     
             <p>Vem comigo que te mostro por onde começar</p>
     
-            <Link to={""}>quero saber mais</Link>
+            <Link to={"/cursos"}>quero saber mais</Link>
         </section>
     )
 }

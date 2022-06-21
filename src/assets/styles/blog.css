@@ -49,7 +49,6 @@
     text-align: justify;
     width: 516px;
 }
-
 @media screen and (max-width: 1200px) {
     .resumo-curso{
         background: none;

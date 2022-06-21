@@ -1,0 +1,103 @@
+.area-postagem{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 228px auto 111px auto;
+    width: 1232px;
+    
+}
+
+section h1{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    color: #FF4081;
+    margin: 0;
+}
+
+.data{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #9D9D9D;
+    margin: 12px 0 74px 0;
+    text-align: center;
+}
+
+section img{
+    width: 1232px;
+    margin-bottom: 64px;
+}
+
+section h2{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+    color: #009688;
+    margin-top: 80px;
+    text-align: start;
+
+}
+section p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    text-align: justify;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+}
+article h3{
+    text-align: center;
+    margin-bottom: 101px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    color: #FF4081;
+}
+.area-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+@media screen and (max-width: 1250px){
+    .area-postagem{
+        width: auto;
+    }
+    section img{
+        width: auto;
+    }
+    section h2{
+        margin: 80px 20px 25px 20px;
+    }
+    section p{
+        margin: 18px 20px;
+    }
+}
+
+@media screen and (max-width: 540px){
+
+    section img{
+        width: 259px;
+        height: 130px;
+    }
+    
+}
+@media screen and (max-width: 400px){
+    article h3{
+        width: 330px;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .area-cards{
+        width: 350px;
+        margin-left: 5px;
+    }
+
+}

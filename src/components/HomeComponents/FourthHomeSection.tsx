@@ -20,7 +20,7 @@ export default function FourthHomeSection() {
             />
             </div>
             <div className="conteudos-button">
-                <Link to={""}>ver todos os posts</Link>
+                <Link to={"/post"}>ver todos os posts</Link>
             </div>
         </section>
     )

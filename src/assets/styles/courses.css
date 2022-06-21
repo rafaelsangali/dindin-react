@@ -62,9 +62,6 @@
     padding: 10px 35px;
 }
 
-footer{
-    margin-top: 200px;
-}
 @media screen and (max-width: 1200px) {
     .card-cursos{
         display: flex;
